@@ -4,7 +4,6 @@ import { GrSearch } from "react-icons/gr";
 
 import { navs } from "./Nav";
 
-import { Avatar, AvatarImage } from "../../@/components/ui/avatar";
 import { useState } from "react";
 
 export const DefaultLayoutMovie = () => {
@@ -29,9 +28,12 @@ export const DefaultLayoutMovie = () => {
               </span>
             </div>
 
-            <Avatar>
-              <AvatarImage src="	https://movie-site-delta.vercel.app/img/user.png" />
-            </Avatar>
+            <div>
+              <img
+                className="w-[100px] rouded-full"
+                src="https://movie-site-delta.vercel.app/img/user.png"
+              />
+            </div>
           </div>
         </header>
       </div>
