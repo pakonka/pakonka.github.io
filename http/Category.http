@@ -1,0 +1,11 @@
+
+GET https://api.escuelajs.co/api/v1/auth/profile
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjEsImlhdCI6MTcxODE0MzU0NiwiZXhwIjoxNzE5ODcxNTQ2fQ.Paw0eLJdSXD3bmwoK7f3k9h1B2aLmj3yGVgLPJPzAHY
+
+POST https://api.escuelajs.co/api/v1/auth/login
+Content-Type: application/json
+
+{
+  "email": "john@mail.com",
+  "password": "changeme"
+}

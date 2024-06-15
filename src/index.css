@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+  input {
+    @apply border-[1px] border-[#363636] bg-[#f6f6f6] rounded-sm p-1;
+  }
+  button:disabled {
+    @apply border-[1px] border-[#363636] bg-[#8e8e8e] text-[#fff];
+  }
+  button {
+    @apply border-[1px] border-[#363636];
+  }
+}
